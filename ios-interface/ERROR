@@ -1,0 +1,8 @@
+/Users/sun/Myapplication/xamarin-ios/ios-interface/testing/EmptyInterface.cs(20,20): Error CS0101: The namespace 'testing' already contains a definition for 'EmptyInterface' (CS0101) (testing)
+/Users/sun/Myapplication/xamarin-ios/ios-interface/testing/AppDelegate.cs(4,4): Error CS0592: Attribute 'Register' is not valid on this declaration type. It is only valid on 'class' declarations. (CS0592) (testing)
+/Users/sun/Myapplication/xamarin-ios/ios-interface/testing/EmptyInterface.cs(10,10): Error CS0111: Type 'EmptyInterface' already defines a member called 'EmptyInterfaceMethod1' with the same parameter types (CS0111) (testing)
+/Users/sun/Myapplication/xamarin-ios/ios-interface/testing/EmptyClass.cs(29,29): Error CS0738: 'EmptyClass' does not implement interface member 'EmptyInterface.EmptyInterfaceMethod1()'. 'EmptyClass.EmptyInterfaceMethod1()' cannot implement 'EmptyInterface.EmptyInterfaceMethod1()' because it does not have the matching return type of 'int'. (CS0738) (testing)
+/Users/sun/Myapplication/xamarin-ios/ios-interface/testing/AppDelegate.cs(26,26): Error CS0115: 'AppDelegate.EmptyInterfaceMethod1()': no suitable method found to override (CS0115) (testing)
+/Users/sun/Myapplication/xamarin-ios/ios-interface/testing/AppDelegate.cs(53,53): Error CS0738: 'AppDelegate' does not implement interface member 'EmptyInterface.EmptyInterfaceMethod1()'. 'AppDelegate.EmptyInterfaceMethod1()' cannot implement 'EmptyInterface.EmptyInterfaceMethod1()' because it does not have the matching return type of 'int'. (CS0738) (testing)
+
+
