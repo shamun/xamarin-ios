@@ -1,8 +1,7 @@
 ﻿using System;
 namespace testing {
   public class EmptyClass : EmptyInterface {
-    public EmptyClass() {
-      
+    public EmptyClass() {      
     }
 
     public void EmptyInterfaceMethod1() {

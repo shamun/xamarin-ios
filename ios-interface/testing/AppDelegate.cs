@@ -3,23 +3,17 @@ using UIKit;
 
 namespace testing {
 
-  [Register("AppDelegate")]
-
-  public interface EmptyInterface {
-
+  public interface IEmptyInterface {
     int EmptyInterfaceMethod1();
-
   }
 
-  public class AppDelegate : UIApplicationDelegate, EmptyInterface {
-
+  [Register("AppDelegate")]
+  public class AppDelegate : UIApplicationDelegate, IEmptyInterface {
     public override UIWindow Window {
       get;
       set;
     }
-
-    public override void EmptyInterfaceMethod1() { 
-    }
+    public int EmptyInterfaceMethod1() { return 1; }
 
   }
 }
