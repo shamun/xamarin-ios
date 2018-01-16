@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ios-callkit", "ios-callkit\ios-callkit.csproj", "{19403C51-30F9-4641-8AA5-FD749257934E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19403C51-30F9-4641-8AA5-FD749257934E}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{19403C51-30F9-4641-8AA5-FD749257934E}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{19403C51-30F9-4641-8AA5-FD749257934E}.Release|iPhone.ActiveCfg = Release|iPhone
+		{19403C51-30F9-4641-8AA5-FD749257934E}.Release|iPhone.Build.0 = Release|iPhone
+		{19403C51-30F9-4641-8AA5-FD749257934E}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{19403C51-30F9-4641-8AA5-FD749257934E}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{19403C51-30F9-4641-8AA5-FD749257934E}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{19403C51-30F9-4641-8AA5-FD749257934E}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
